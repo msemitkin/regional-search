@@ -14,6 +14,8 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    implementation("org.jetbrains.lets-plot:lets-plot-kotlin-jvm:3.2.0")
+    implementation("org.jetbrains.lets-plot:lets-plot-image-export:2.3.0")
 }
 
 tasks.test {
